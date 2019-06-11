@@ -1,0 +1,37 @@
+Manifest-Version: 1.0
+
+Name: manifest.json
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: K3NbtWFm2VdUqCMoPOQ/1g==
+SHA1-Digest: /XHJReG8xpY/cjf4VgcayuZXAts=
+
+Name: icons/logo_128.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: XY7Glx7UospwPn7MnPnyNg==
+SHA1-Digest: PMjShTExDl7viTlbTtBZoNrSTFw=
+
+Name: icons/logo_32.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 5HWKnr6eaRZhJk8cDzymTg==
+SHA1-Digest: VvWaUxdqr+L5V8KgUmOrfqtTZj8=
+
+Name: icons/logo_48.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: FSSLI8x13mdw5Yvq1OPDYw==
+SHA1-Digest: z8lxa624iyM/r9lV2bTRYTsVCi8=
+
+Name: icons/logo_64.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 8mkivQp/tzXZKuq8VmUIIA==
+SHA1-Digest: EfNDAeRNVjZAuoIYa/P5mFdwR7w=
+
+Name: popup/getMe.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: u+8bGmlLNE8SM2Hug93mUA==
+SHA1-Digest: kf+1P4esGIZBylCfj0jTpEQiVYA=
+
+Name: popup/go.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: fJmgp56mnT2qh1QjTSCz3w==
+SHA1-Digest: kwJyP4qyaFbL6W0JthdYYzO57Po=
+
