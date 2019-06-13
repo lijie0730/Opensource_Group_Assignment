@@ -3,69 +3,101 @@
 <!DOCTYPE html>
 <html>
 <head>
-	 <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-	
-	
-	
-	
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+				
 <style type="text/css">
 
-#itsAFact {
-    text-align: center;
-    padding: 5px;
-}
-#cleanPad {
-    cursor: pointer;
-    display: block;
-    margin: 5px auto 0;
-    width: 100px;
-    background: #888;
-    text-align: center;
-    padding: 5px;
-    color: #fff;
-}
-textarea {
-    font-size: 16px;
-	width: 350px;
-	height: 250px;
-    padding: 5px;
-	overflow: auto;
-}
+	#itsAFact {
+	    text-align: center;
+	    padding: 5px;
+	}
+	#cleanPad,#cleanPad2 {
+	    cursor: pointer;
+	    display: block;
+	    margin: 5px auto 0;
+	    width: 100px;
+	    background: #888;
+	    text-align: center;
+	    padding: 5px;
+	    color: #fff;
+	}
+	textarea {
+	    font-size: 16px;
+		width: 350px;
+		height: 250px;
+	    padding: 5px;
+		overflow: auto;
+	}
 
-#layOver {
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    height: 100vh;
-    background: rgba(0,0,0,0.5);
-}
+	#layOver,#layOver2 {
+	    position: absolute;
+	    left: 0;
+	    top: 0;
+	    right: 0;
+	    height: 100vh;
+	    background: rgba(0,0,0,0.5);
+	}
 
-#layOver button {
-    background: #fff;
-    border: 0;
-    padding: 5px 30px;
-    margin: 10px 20px;
-    font-weight: bold;
-}
+	#layOver button {
+	    background: #fff;
+	    border: 0;
+	    padding: 5px 30px;
+	    margin: 10px 20px;
+	    font-weight: bold;
+	}
 
-#layOver > div {
-    color: #fff;
-    margin-top: 140px;
-}
 
-.hidden {
-    display: none;
-}
+	#layOver2 button {
+	    background: #fff;
+	    border: 0;
+	    padding: 5px 30px;
+	    margin: 10px 20px;
+	    font-weight: bold;
+	}
+
+	#layOver > div {
+	    color: #fff;
+	    margin-top: 140px;
+	}
+
+	#layOver2 > div {
+	    color: #fff;
+	    margin-top: 140px;
+	}
+
+	.hidden {
+	    display: none;
+	}
  
 </style>
 </head>
 <body>
+	
+<select style="margin-left: 15px;margin-top: 5px;" id="selectsize">
+  <option value="20">change font size
+  <option value="10">10
+  <option value="20">20
+  <option value="30">30
+  <option value="40">40
+  <option value="50">50
+  <option value="60">60
+</select>
+
+<button id="page_1">page 1</button>
+<button id="page_2">page 2</button>	
+	
+	
+	
+	
+	
+	
+	
+	
 <div id="itsAFact">
 	<div><textarea id="tslNotes" placeholder="Get Set Go..."></textarea>
 	<a id="cleanPad">Clear</a>
