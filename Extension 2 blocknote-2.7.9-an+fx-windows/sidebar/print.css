@@ -1,0 +1,47 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 13pt;
+  background: none #fff;
+  color: #000
+}
+
+
+. select_nota {display:none;}
+
+textarea {display:none;}
+
+.bottone {display:none;}
+
+.right {text-align:right;}
+
+.div_left{display:none;}
+
+.div_right{display:none;}
+
+#title_print {
+display: block;
+  font-size: 22pt;
+  background: none #fff;
+  color: #000
+}
+
+#text_area_print {
+display: block;
+  font-size: 13pt;
+  background: none #fff;
+  color: #000
+}
+
+#message {display:none;}
+
+#bar_1{display:none;}
+#bar_2{display:none;}
+#bar_3{display:none;}
+
+

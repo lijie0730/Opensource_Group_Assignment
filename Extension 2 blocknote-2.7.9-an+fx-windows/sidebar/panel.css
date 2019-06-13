@@ -1,0 +1,60 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 90%;
+  font: caption;
+  background-color: #F4F7F8;
+}
+
+
+. select_nota {
+	width: 20px;
+}
+
+textarea {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size:1.2em;
+}
+
+.bottone {
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: bold 12px Arial, Helvetica, sans-serif;
+	color: #fff;
+	padding: 10px 20px;
+	border: solid 1px #0076a3;
+	background: #0095cd;
+}
+
+.right {
+	text-align:right;
+}
+
+.div_left{
+float: left; text-align: left;
+}
+
+.div_right{
+float: right; text-align: right;
+}
+
+#title_print {
+display:none;
+}
+
+#text_area_print {
+display:none;
+}
+
+

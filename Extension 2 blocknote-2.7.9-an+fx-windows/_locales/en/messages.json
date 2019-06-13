@@ -1,0 +1,23 @@
+{
+"TextExtName" : {
+	"message": "BlockNote"
+},
+"TextExtVer" : {
+	"message": "2.7.9"
+},
+"TextSaveToFile" : {
+	"message": "Save to File"
+},
+"TextLoadFromFile" : {
+	"message": "Load From File"
+},
+"TextNameNewNote" : {
+	"message": "Name New Note"
+},
+"TextClear" : {
+	"message": "Clear"
+},
+"TextAddRemove" : {
+	"message": "Add/Remove Note"
+}
+}

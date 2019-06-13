@@ -1,0 +1,127 @@
+Manifest-Version: 1.0
+
+Name: manifest.json
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: m28MAoPqJ6CMBNc6qT4kwQ==
+SHA1-Digest: iIkM+X+v0f7g3IWqwjwDMNc50IA=
+
+Name: _locales/en/messages.json
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: xjzqSa4Z4N2Lsi3YfaeqLA==
+SHA1-Digest: 9UzhS+A7aOQE5jzRwwSh58BNx9c=
+
+Name: _locales/it/messages.json
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: j5l9H/lO1uOJaUbtsohegQ==
+SHA1-Digest: aRmbIyUHQYzp0+NBFpKSc9FBSfc=
+
+Name: icons/blocknote-small.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: T3pCBSvoTwNmGSrGsQu2QA==
+SHA1-Digest: N1X7nRb7ZYWE5GnYuwKKTab0RYY=
+
+Name: icons/blocknote.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ZoHk6XvcJMEl0/Nc4Q+7AA==
+SHA1-Digest: KZ2cCgieZ8UBdBDzHWcP+uTPAYg=
+
+Name: icons/icon_add_note.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 3aj85uyfAzCj4AReg36Y5w==
+SHA1-Digest: hdySL4Sbcm2C+ZZjtzjAK3JEWmQ=
+
+Name: icons/icon_backup.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: uTV7b7nRnipsohkgsWDHBg==
+SHA1-Digest: lsSp3AxXawDylLWW5Hc0ml3iYi8=
+
+Name: icons/icon_confirm_note.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: KAPZwzpQsYfj9sGFny6jzw==
+SHA1-Digest: 8YmcLNApoL4VOGnE9z/fmrUiMm0=
+
+Name: icons/icon_get_url.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: zEyAQouTU9ZTCxnkMyeO3g==
+SHA1-Digest: Peqcnbd2d2VzG5bB0qkAlz3ZvAQ=
+
+Name: icons/icon_help.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: k8BrpowFYNG5vTIU7lGdvg==
+SHA1-Digest: 2E44sVP4Q2bPXdltyZ6YWUHBHW8=
+
+Name: icons/icon_load_from_file.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: /Rzvh3tX8EoXUPIWyQXJrA==
+SHA1-Digest: YiE1sNcHx410RkZQrQgIZLcpeh8=
+
+Name: icons/icon_path.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: LBKfJBgdZf48qcNOB9xJpw==
+SHA1-Digest: rDYW+gCeQnop4dCf1FwuZZ1cQK8=
+
+Name: icons/icon_print.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 7f74UeJhI3luDh8WbD6N2w==
+SHA1-Digest: gAg3WpZhx1jmtA012A3YLZSdHOA=
+
+Name: icons/icon_remove_note.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: hxpFp/yS/HC4MiFXEi5oJg==
+SHA1-Digest: xzw8ceEf/o4aYMoVlfH+oYbn5T0=
+
+Name: icons/icon_reset.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: lXW7ATvf3od7lFPQZPDRcg==
+SHA1-Digest: aTx5pOs8Tm6bIhsVqKE9AB0BQWA=
+
+Name: icons/icon_save_to_file.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: WeBweSCoOluk56eWdCg7kg==
+SHA1-Digest: gQYGDCrP2DS5mXVk8qRtGaIMxQY=
+
+Name: icons/logo - Copia.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: utXINo2JL3anpxv9TeoX5Q==
+SHA1-Digest: iovoUSO/exvZoCVuJLvz+Dz+0Mk=
+
+Name: icons/name_new_note.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: mtj3vwFaqiNqvfHvhbH2EA==
+SHA1-Digest: shn1vxNpHJpNSUij02/FPbTQJ9c=
+
+Name: icons/select_note.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 7mzzj9EIr3l/1IJ0X32WqA==
+SHA1-Digest: UhCQPRduWACMGr+SudeFYg2n594=
+
+Name: sidebar/background.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: +Jf/mDajAcPHRoeKhtChHQ==
+SHA1-Digest: G5l5BU/IQBSleU8WMFfpf8drfPA=
+
+Name: sidebar/options.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: tQFFDrCSLpbblQJNyKVrYA==
+SHA1-Digest: BuNBi7eya0oKXbvGlXNfQY4bx9o=
+
+Name: sidebar/panel.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: xq3CYOksgzeCYWYRXkkuxw==
+SHA1-Digest: wBlC1wfsTVbHTgBOLTZ4nae1FDc=
+
+Name: sidebar/panel.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: bMlH41ngCf8peStIhehdpA==
+SHA1-Digest: npgAU7RYRilewi8QblvaBTgoA9M=
+
+Name: sidebar/panel.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: T4zyfdVfFWlU+/IrKYwleg==
+SHA1-Digest: Oc8+4wJdZeFmtNPDdCZXrDdOkX8=
+
+Name: sidebar/print.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: OQg/6UCjAOx/hcqVowIIKw==
+SHA1-Digest: Uie9bzL/JleIbaZHiZPktPbxX3w=
+
