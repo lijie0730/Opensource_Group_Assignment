@@ -1,0 +1,192 @@
+:root {
+  --main-bg-color: #f9f9fa; 
+}
+
+:root {
+  --secondary-bg-color: rgba(12, 12, 13, .8);
+  --notes-bg-color: rgba(232, 223, 192, 0.75);
+  --notes-text: #000;
+}
+
+:root {
+  --highlight-color: #0a84ff;
+}
+
+@@font-face {
+  font-family: "Fira Sans";
+  src: url("/fonts/Fira_Sans/FiraSans-Regular.ttf");
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  background: var(--main-bg-color);
+  background-size: cover;
+}
+
+#wrapper {
+  min-height: 92vh;
+  display: flex;
+  flex-flow: nowrap row;
+}
+
+#note-content {
+  box-sizing: border-box;
+  font-size: 18px;
+  line-height: 1.75rem;
+  padding: 1em;
+  min-height: 70vh;
+  height: auto;
+  margin: 4rem 15%;
+  width: 70%;
+  box-shadow: 0 0 .4rem rgba(0,0,0,0.35);
+  background: var(--notes-bg-color);
+  border: 1px solid rgba(66, 79, 90, 0.5);
+  display: flex;
+  flex-grow: 3;
+  flex-basis: 0;
+  color: var(--notes-text);
+  resize: none;
+}
+
+#links {
+  z-index: 20;
+  min-height: 8vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background: var(--secondary-bg-color);
+  box-shadow: 0 0 .4rem rgba(0,0,0,0.35);
+}
+
+a {
+  display: flex;
+  text-decoration: none;
+  font-weight: normal;
+  margin: 8px 16px;
+  color: white;
+  font-family: "Fira Sans";
+}
+
+a:hover {
+  border-bottom: 1px #0a84ff solid;
+  transition: .15s;
+}
+
+.toggle {
+  background: transparent;
+  border: none;
+  display: flex;
+  cursor: pointer;
+  font-weight: normal;
+  margin: 8px 3.5rem;
+  color: white;
+  font-family: "Fira Sans";
+  font-size: 32px;
+  border-bottom: 3px transparent solid;
+}
+
+.toggle:hover {
+  border-bottom: 3px solid var(--highlight-color);
+  transition: .15s;
+}
+
+#topsites {
+  border-top: 2px solid var(--highlight-color);
+  background: var(--secondary-bg-color);
+  box-shadow: 0 .4rem .4rem rgba(0,0,0,0.35);
+  flex-basis: 0;
+  transition: all 0s ease-out;
+  position: absolute;
+}
+
+#bookmarks {
+  border-top: 2px solid var(--highlight-color);
+  background: var(--secondary-bg-color);
+  box-shadow: 0 .4rem .4rem rgba(0,0,0,0.35);
+  flex-basis: 0;
+  transition: all 0s ease-out;
+  position: absolute;
+}
+
+.list-group-item {
+  display: flex;
+  font-size: 24px;
+  margin: 0 4px;
+}
+
+#emptyText {
+  font-family: "Fira Sans";
+  font-size: 24px;
+  color: white;
+  padding: 1.5em;
+  margin: 0;
+}
+
+#searchBoxId {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  background: var(--secondary-bg-color);
+  padding: 0;
+  border-top: none;
+  position: absolute;
+  transition: .15s all ease-out;
+  width: 100%;
+  box-shadow: none;
+  max-height: 0px;
+}
+
+#searchbox {
+  width: 40em;
+  border-radius: 4px;
+  border: 2px solid rgba(66, 79, 90, 0.5);
+  line-height: 2em;
+  box-shadow: 0 0 .2rem rgba(0,0,0,0.25);
+  background: #636369;
+  color: white;
+  padding: 0 .5em;
+  font-size: 1rem;
+  visibility: collapse;
+}
+
+#searchbox:hover {
+  background: rgba(255, 255, 255, .35);
+}
+
+#searchbox:focus {
+  border: 2px solid var(--highlight-color);
+}
+
+#sbsubmit {
+  background: transparent;
+  color: var(--highlight-color);
+  margin: 0 6px;
+  line-height: 2em;
+  padding: 0 .5em;
+  border-radius: 4px;
+  border: 2px solid var(--highlight-color);
+  font-size: 1rem;
+  visibility: collapse;
+}
+
+#sbsubmit:hover {
+  background: var(--highlight-color);
+  color: white;
+  cursor: pointer;
+  transition: .15s;
+}
+
+#weather-div {
+  display: flex;
+  justify-content: center;
+  background: var(--secondary-bg-color);
+  padding: 0px;
+  border-top: none;
+  position: absolute;
+  transition: .25s all ease-out;
+  width: 100%;
+  box-shadow: none;
+}
