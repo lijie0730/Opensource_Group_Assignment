@@ -77,76 +77,82 @@
 </style>
 </head>
 <body>
-	
-<select style="margin-left: 15px;margin-top: 5px;" id="selectsize">
-  <option value="20">change font size
-  <option value="10">10
-  <option value="20">20
-  <option value="30">30
-  <option value="40">40
-  <option value="50">50
-  <option value="60">60
-</select>
 
-<button id="page_1">page 1</button>
-<button id="page_2">page 2</button>	
-	
-	
-<input style="margin-left:  50px" type="checkbox" id="mytime" name="mytime" value="57"> <i class="fas fa-clock"></i>
+	<select style="margin-left: 15px;margin-top: 5px;" id="selectsize">
+	  <option value="20">change font size
+	  <option value="10">10
+	  <option value="20">20
+	  <option value="30">30
+	  <option value="40">40
+	  <option value="50">50
+	  <option value="60">60
+	</select>
 
-<div id="itsAFact">
+	<button id="page_1">page 1</button>
+	<button id="page_2">page 2</button>	
 
-	<div>
-		<textarea id="tslNotes" placeholder="page 1"></textarea>
-		<textarea id="tslNotes2" placeholder="page 2" hidden></textarea>
 
-		<div id="Pad1">
-			<a id="cleanPad">Clear</a>   
-		</div>		
-		
-		<div id="Pad2" hidden>
-			<a id="cleanPad2">Clear</a>   
+	<input style="margin-left:  50px" type="checkbox" id="mytime" name="mytime" value="57"> <i class="fas fa-clock"></i>
+
+	<div id="itsAFact">
+
+		<div>
+			<textarea id="tslNotes" placeholder="page 1"></textarea>
+			<textarea id="tslNotes2" placeholder="page 2" hidden></textarea>
+
+			<div id="Pad1">
+				<a id="cleanPad">Clear</a>   
+			</div>		
+
+			<div id="Pad2" hidden>
+				<a id="cleanPad2">Clear</a>   
+			</div>
+
+			<br>
+
+			<button id="btn_default" type="button" class="btn btn-default btn-xs">Default</button>
+			<button id="btn_primary" type="button" class="btn btn-primary btn-xs">Blue</button>
+			<button id="btn_success" type="button" class="btn btn-success btn-xs">Green</button>
+			<button id="btn_info" type="button" class="btn btn-info btn-xs">Light Blue</button>
+			<button id="btn_warning" type="button" class="btn btn-warning btn-xs">Orange</button>
+			<button id="btn_danger" type="button" class="btn btn-danger btn-xs">Red</button>
+			<button style="color:white;background-color:#3C4B55;margin-left: 15px" id="button_time" type="button" class="btn btn-xs"><i class="fas fa-stopwatch"></i> Timer</button>
+
+
+		</div>	
+
+		 <div id="layOver" class="hidden">
+			<div>Are you sure to delete everything in page 1 ?</div>
+			<button id="yesPlz">Yes</button>
+			<button id="nope">No</button>
+		 </div>
+
+		 <div id="layOver2" class="hidden">
+			<div>Are you sure to delete everything in page 2 ?</div>
+			<button id="yesPlz2">Yes</button>
+			<button id="nope2">No</button>
+		 </div>
+
+	</div>
+
+		<div  id="timer_function" hidden>
+			<input id="input_countdown" style="margin-left: 170px" type="text" name="fname" placeholder="Enter minutes for alarm">
+			<button id="start_countdown">start</button>
 		</div>
-		
-		<br>
 
-		<button id="btn_default" type="button" class="btn btn-default btn-xs">Default</button>
-		<button id="btn_primary" type="button" class="btn btn-primary btn-xs">Blue</button>
-		<button id="btn_success" type="button" class="btn btn-success btn-xs">Green</button>
-		<button id="btn_info" type="button" class="btn btn-info btn-xs">Light Blue</button>
-		<button id="btn_warning" type="button" class="btn btn-warning btn-xs">Orange</button>
-		<button id="btn_danger" type="button" class="btn btn-danger btn-xs">Red</button>
-		<button style="color:white;background-color:#3C4B55;margin-left: 15px" id="button_time" type="button" class="btn btn-xs"><i class="fas fa-stopwatch"></i> Timer</button>
+		<div  id="time_count" hidden>
+			<body>
+			    <div style="margin-left:10px" id="coundowntime">Alarm countdown in <span id="time">00:00</span> minutes!</div>
+			</body>
+		</div>
 
-
-	</div>	
-	
-	 <div id="layOver" class="hidden">
-	 	<div>Are you sure to delete everything in page 1 ?</div>
-	 	<button id="yesPlz">Yes</button>
-	 	<button id="nope">No</button>
-	 </div>
-	
-	 <div id="layOver2" class="hidden">
-		<div>Are you sure to delete everything in page 2 ?</div>
-		<button id="yesPlz2">Yes</button>
-		<button id="nope2">No</button>
-	 </div>
-	
-</div>
-	
-	
-	
-	<div  id="timer_function" hidden>
- 	<input id="input_countdown" style="margin-left: 170px" type="text" name="fname" placeholder="Enter minutes for alarm">
-		<button id="start_countdown">start</button>
-</div>
-	
-	
-	
-	
-	
+		<center style="margin-left: 20px">
+		<canvas id="canvas" width="200" height="200" style="background-color:white" hidden></canvas>
+		</center>
 
 </body>
+	
 <script src="getMe.js"></script>
+<script type="text/javascript"src="time.js"></script>
+	
 </html>
