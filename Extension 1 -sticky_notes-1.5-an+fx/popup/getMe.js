@@ -33,3 +33,9 @@ yes.addEventListener('click',()=>{
     browser.storage.local.set({ tslStickyNotes: "" });
     layOver.className="hidden";
 }, false);
+
+//clear page 1
+
+// add on
+//page 2
+const notePad2 = document.getElementById('tslNotes2');
