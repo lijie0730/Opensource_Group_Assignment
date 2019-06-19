@@ -39,3 +39,4 @@ yes.addEventListener('click',()=>{
 // add on
 //page 2
 const notePad2 = document.getElementById('tslNotes2');
+const cleanPad2 = document.getElementById('cleanPad2');
