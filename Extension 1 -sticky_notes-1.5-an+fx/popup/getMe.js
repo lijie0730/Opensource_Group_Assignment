@@ -42,3 +42,4 @@ const notePad2 = document.getElementById('tslNotes2');
 const cleanPad2 = document.getElementById('cleanPad2');
 const layOver2 = document.getElementById('layOver2');
 const yes2 = document.getElementById('yesPlz2');
+const no2 = document.getElementById('nope2');
