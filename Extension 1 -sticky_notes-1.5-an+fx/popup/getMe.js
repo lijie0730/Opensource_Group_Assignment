@@ -40,3 +40,4 @@ yes.addEventListener('click',()=>{
 //page 2
 const notePad2 = document.getElementById('tslNotes2');
 const cleanPad2 = document.getElementById('cleanPad2');
+const layOver2 = document.getElementById('layOver2');
