@@ -43,3 +43,15 @@ const cleanPad2 = document.getElementById('cleanPad2');
 const layOver2 = document.getElementById('layOver2');
 const yes2 = document.getElementById('yesPlz2');
 const no2 = document.getElementById('nope2');
+
+const gettingItem2 = browser.storage.local.get('tslStickyNotes2');
+gettingItem2.then((res) => {
+try{
+  if(res.tslStickyNotes2){
+    notePad2.value = res.tslStickyNotes2;
+  }
+}catch(e){}
+});
+notePad2.addEventListener('keyup',()=>{
+    browser.storage.local.set({ tslStickyNotes2: notePad2.value });
+}, false);
