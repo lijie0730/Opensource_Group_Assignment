@@ -60,3 +60,7 @@ notePad2.addEventListener('keyup',()=>{
 cleanPad2.addEventListener('click',()=>{
       layOver2.className="";
 }, false);
+
+no2.addEventListener('click',()=>{
+   layOver2.className="hidden";
+}, false);
