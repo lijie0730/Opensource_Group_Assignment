@@ -58,3 +58,5 @@ notePad2.addEventListener('keyup',()=>{
 
 //clear page 1
 cleanPad2.addEventListener('click',()=>{
+      layOver2.className="";
+}, false);
