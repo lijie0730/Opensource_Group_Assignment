@@ -66,4 +66,7 @@ no2.addEventListener('click',()=>{
 }, false);
 
 yes2.addEventListener('click',()=>{
-    notePad2.value = "";
+   notePad2.value = "";
+   browser.storage.local.set({ tslStickyNotes2: "" });
+   layOver2.className="hidden";
+}, false);
