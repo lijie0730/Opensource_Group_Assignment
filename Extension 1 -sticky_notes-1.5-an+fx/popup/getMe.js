@@ -55,3 +55,6 @@ try{
 notePad2.addEventListener('keyup',()=>{
     browser.storage.local.set({ tslStickyNotes2: notePad2.value });
 }, false);
+
+//clear page 1
+cleanPad2.addEventListener('click',()=>{
