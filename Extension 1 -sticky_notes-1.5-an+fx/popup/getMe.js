@@ -64,3 +64,6 @@ cleanPad2.addEventListener('click',()=>{
 no2.addEventListener('click',()=>{
    layOver2.className="hidden";
 }, false);
+
+yes2.addEventListener('click',()=>{
+    notePad2.value = "";
