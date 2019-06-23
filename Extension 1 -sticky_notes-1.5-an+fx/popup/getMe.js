@@ -78,3 +78,5 @@ yes2.addEventListener('click',()=>{
 //switch page
 
 document.getElementById('page_2').addEventListener("click", function(){
+   document.getElementById("tslNotes").setAttribute("hidden", "true");
+  document.getElementById("tslNotes2").removeAttribute("hidden");
