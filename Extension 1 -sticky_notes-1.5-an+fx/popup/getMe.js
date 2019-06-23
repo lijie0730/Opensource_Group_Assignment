@@ -80,3 +80,5 @@ yes2.addEventListener('click',()=>{
 document.getElementById('page_2').addEventListener("click", function(){
    document.getElementById("tslNotes").setAttribute("hidden", "true");
   document.getElementById("tslNotes2").removeAttribute("hidden");
+    document.getElementById("Pad1").setAttribute("hidden", "true"); 
+  document.getElementById("Pad2").removeAttribute("hidden");
