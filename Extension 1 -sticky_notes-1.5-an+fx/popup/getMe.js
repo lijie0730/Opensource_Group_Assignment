@@ -70,3 +70,11 @@ yes2.addEventListener('click',()=>{
    browser.storage.local.set({ tslStickyNotes2: "" });
    layOver2.className="hidden";
 }, false);
+
+//page 2
+
+
+
+//switch page
+
+document.getElementById('page_2').addEventListener("click", function(){
