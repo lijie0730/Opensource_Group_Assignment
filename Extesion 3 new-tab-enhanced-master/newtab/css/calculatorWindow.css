@@ -1,0 +1,8 @@
+#mydiv {
+  position: absolute;
+  z-index: 9;
+  cursor: move;
+  text-align: center;
+  left : 70%;
+  bottom : 20%;
+}

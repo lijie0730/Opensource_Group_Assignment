@@ -1,0 +1,8 @@
+#mydiv_weather {
+  position: absolute;
+  z-index: 9;
+  cursor: move;
+  text-align: center;
+  top: 15%;
+  left: 25%;
+}
