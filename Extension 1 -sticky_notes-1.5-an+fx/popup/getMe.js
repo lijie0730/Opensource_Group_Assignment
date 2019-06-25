@@ -88,3 +88,5 @@ document.getElementById('selectsize').addEventListener("change", function(){
   document.getElementById("tslNotes2").setAttribute("style", "font-size:"+x+"px");
     localStorage.setItem("fontsize_record", x);
 });
+
+var timer_checked = 1;
