@@ -81,3 +81,5 @@ document.getElementById('page_2').addEventListener("click", function(){
     document.getElementById("Pad1").setAttribute("hidden", "true"); 
     document.getElementById("Pad2").removeAttribute("hidden");
 });
+
+document.getElementById('selectsize').addEventListener("change", function(){
