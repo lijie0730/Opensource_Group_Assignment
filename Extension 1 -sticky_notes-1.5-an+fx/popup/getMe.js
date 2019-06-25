@@ -86,3 +86,5 @@ document.getElementById('selectsize').addEventListener("change", function(){
     var x = document.getElementById("selectsize").value;
   document.getElementById("tslNotes").setAttribute("style", "font-size:"+x+"px");
   document.getElementById("tslNotes2").setAttribute("style", "font-size:"+x+"px");
+    localStorage.setItem("fontsize_record", x);
+
