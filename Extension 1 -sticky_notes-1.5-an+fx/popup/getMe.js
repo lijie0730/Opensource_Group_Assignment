@@ -84,3 +84,4 @@ document.getElementById('page_2').addEventListener("click", function(){
 
 document.getElementById('selectsize').addEventListener("change", function(){
     var x = document.getElementById("selectsize").value;
+  document.getElementById("tslNotes").setAttribute("style", "font-size:"+x+"px");
