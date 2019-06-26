@@ -4,6 +4,10 @@
   <meta charset="UTF-8">
   <title>New Tab Enhanced</title>
   <link id="style" rel="stylesheet" href="style.css">
+  
+   <link rel="stylesheet" href="css/calculatorWindow.css">
+  <link rel="stylesheet" href="css/calculatorMain.css">
+  <link rel="stylesheet" href="css/newWeatherWindow.css">
 </head>
 <body>
   <div id="links">
@@ -11,7 +15,45 @@
     <button class="toggle" id="toggle">Top Sites</button>
     <a class="toggle" id="weather" href="https://duckduckgo.com/?q=weather+">Weather</a>
     <button class="toggle" id="searchToggle">Search</button>
+    <button class="toggle" id="calculator-button">Calculator</button>
   </div>
+  
+  	<form action="#" id="form_calculator" method="post" name="form_calculator" style="display:none" box-sizing="border-box">
+		<div id="mydiv" box-sizing="border-box">
+			<!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+	
+				<div class="calc" box-sizing="border-box">
+		<div class="calc__field" box-sizing="border-box"></div>
+		<div class="calc__operators" box-sizing="border-box">
+			<span class="calc__btn  js-calc-reset" box-sizing="border-box"><i class="icon-reset" box-sizing="border-box"></i></span>
+			<span class="calc__btn  js-calc-percent" box-sizing="border-box"><i class="icon-percent" box-sizing="border-box"></i></span>
+			<span class="calc__btn  js-calc-division" box-sizing="border-box"><i class="icon-division" box-sizing="border-box"></i></span>
+			<span class="calc__btn  js-calc-clear" box-sizing="border-box"><i class="icon-clear" box-sizing="border-box"></i></span>
+
+			<span class="calc__btn  calc__btn--num  js-calc-num" box-sizing="border-box">7</span>
+			<span class="calc__btn  calc__btn--num  js-calc-num" box-sizing="border-box">8</span>
+			<span class="calc__btn  calc__btn--num  js-calc-num" box-sizing="border-box">9</span>
+			<span class="calc__btn  js-calc-multiplied" box-sizing="border-box"><i class="icon-multiplied" box-sizing="border-box"></i></span>
+
+			<span class="calc__btn  calc__btn--num  js-calc-num" box-sizing="border-box">4</span>
+			<span class="calc__btn  calc__btn--num  js-calc-num" box-sizing="border-box">5</span>
+			<span class="calc__btn  calc__btn--num  js-calc-num" box-sizing="border-box">6</span>
+			<span class="calc__btn  js-calc-minus" box-sizing="border-box"><i class="icon-minus" box-sizing="border-box"></i></span>
+
+			<span class="calc__btn  calc__btn--num  js-calc-num" box-sizing="border-box">1</span>
+			<span class="calc__btn  calc__btn--num  js-calc-num" box-sizing="border-box">2</span>
+			<span class="calc__btn  calc__btn--num  js-calc-num" box-sizing="border-box">3</span>
+			<span class="calc__btn  js-calc-plus" box-sizing="border-box"><i class="icon-plus" box-sizing="border-box"></i></span>
+
+			<span class="calc__btn  js-calc-inverse" box-sizing="border-box"><i class="icon-plus-minus" box-sizing="border-box"></i></span>
+			<span class="calc__btn  calc__btn--num  js-calc-num" box-sizing="border-box">0</span>
+			<span class="calc__btn  js-calc-dot" box-sizing="border-box">.</span>
+			<span class="calc__btn  calc__btn--orange  js-calc-equal" box-sizing="border-box"><i class="icon-equal" box-sizing="border-box"></i></span>
+		</div>
+	</div>
+		</div>
+	</form>
+  
   <form class="popover" id="searchBoxId" method="get" action="https://duckduckgo.com/" style="max-height: 0px">
     <input id="searchbox" placeholder="Search with DuckDuckGo" name="q">
     <input id="sbsubmit" type="submit" value="Search">
