@@ -101,3 +101,4 @@ document.getElementById('button_time').addEventListener("click", function(){
 });
 
 document.getElementById('start_countdown').addEventListener("click", function(){
+  var countdown_value = document.getElementById("input_countdown").value;
