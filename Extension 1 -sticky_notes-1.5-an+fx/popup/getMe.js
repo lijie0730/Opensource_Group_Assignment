@@ -90,3 +90,4 @@ document.getElementById('selectsize').addEventListener("change", function(){
 });
 
 var timer_checked = 1;
+document.getElementById('button_time').addEventListener("click", function(){
