@@ -104,3 +104,4 @@ document.getElementById('start_countdown').addEventListener("click", function(){
   var countdown_value = document.getElementById("input_countdown").value;
     var inputminute = countdown_value;
    var duration = inputminute*60;
+    var display = document.querySelector('#time');
