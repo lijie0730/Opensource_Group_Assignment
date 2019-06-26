@@ -99,3 +99,5 @@ document.getElementById('button_time').addEventListener("click", function(){
          timer_checked = 1
       }
 });
+
+document.getElementById('start_countdown').addEventListener("click", function(){
