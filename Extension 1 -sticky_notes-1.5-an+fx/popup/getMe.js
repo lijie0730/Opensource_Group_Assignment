@@ -91,9 +91,11 @@ document.getElementById('selectsize').addEventListener("change", function(){
 
 var timer_checked = 1;
 document.getElementById('button_time').addEventListener("click", function(){
-    if(timer_checked == 1){
-        document.getElementById("timer_function").removeAttribute("hidden");
-      timer_checked = 0;
-        }else{ 
-            document.getElementById("timer_function").setAttribute("hidden","true");
-              timer_checked = 1
+      if(timer_checked == 1){
+         document.getElementById("timer_function").removeAttribute("hidden");
+         timer_checked = 0;
+      }else{ 
+         document.getElementById("timer_function").setAttribute("hidden","true");
+         timer_checked = 1
+      }
+});
