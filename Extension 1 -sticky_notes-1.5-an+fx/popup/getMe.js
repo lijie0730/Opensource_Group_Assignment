@@ -95,3 +95,4 @@ document.getElementById('button_time').addEventListener("click", function(){
         document.getElementById("timer_function").removeAttribute("hidden");
       timer_checked = 0;
         }else{ 
+            document.getElementById("timer_function").setAttribute("hidden","true");
