@@ -105,3 +105,10 @@ document.getElementById('start_countdown').addEventListener("click", function(){
     var inputminute = countdown_value;
    var duration = inputminute*60;
     var display = document.querySelector('#time');
+  var timer = duration, minutes, seconds;
+
+  setInterval(function () {
+      minutes = parseInt(timer / 60, 10);
+      seconds = parseInt(timer % 60, 10);
+
+      minutes = minutes < 10 ? "0" + minutes : minutes;
