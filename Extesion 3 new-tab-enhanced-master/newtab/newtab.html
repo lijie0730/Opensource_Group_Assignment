@@ -16,6 +16,7 @@
     <a class="toggle" id="weather" href="https://duckduckgo.com/?q=weather+">Weather</a>
     <button class="toggle" id="searchToggle">Search</button>
     <button class="toggle" id="calculator-button">Calculator</button>
+    <button class="toggle" id="weather-button">Weather</button>
   </div>
   
   	<form action="#" id="form_calculator" method="post" name="form_calculator" style="display:none" box-sizing="border-box">
@@ -53,6 +54,16 @@
 	</div>
 		</div>
 	</form>
+	
+	
+	<form action="#" id="form_weather" method="post" name="form_weather" style="display:none">
+	<div id="mydiv_weather">
+		<!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+	
+	<iframe src="https://www.meteoblue.com/en/weather/widget/three?geoloc=detect&nocurrent=0&noforecast=0&days=7&tempunit=CELSIUS&windunit=KILOMETER_PER_HOUR&layout=image"  frameborder="0" scrolling="NO" allowtransparency="true" sandbox="allow-same-origin allow-scripts allow-popups" style="width: 805px;height:550px"></iframe><div><!-- DO NOT REMOVE THIS LINK --><a href="https://www.meteoblue.com/en/weather/forecast/week?utm_source=weather_widget&utm_medium=linkus&utm_content=three&utm_campaign=Weather%2BWidget" target="_blank"></a></div>
+ 
+	</div>
+	</form>
   
   <form class="popover" id="searchBoxId" method="get" action="https://duckduckgo.com/" style="max-height: 0px">
     <input id="searchbox" placeholder="Search with DuckDuckGo" name="q">
@@ -66,5 +77,8 @@
   <div id="bookmarks"></div>
   <script src="./newtab.js"></script>
   <script src="./toggles.js"></script>
+  <script src="./calculator.js"></script>
+  <script src="./calculatorMain.js"></script>
+  <script src="./newWeather.js"></script>
 </body>
 </html>
