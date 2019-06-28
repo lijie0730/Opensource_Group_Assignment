@@ -101,47 +101,32 @@ document.getElementById('button_time').addEventListener("click", function(){
 });
 
 document.getElementById('start_countdown').addEventListener("click", function(){
-  var countdown_value = document.getElementById("input_countdown").value;
+    var countdown_value = document.getElementById("input_countdown").value;
     var inputminute = countdown_value;
-   var duration = inputminute*60;
+    var duration = inputminute*60;
     var display = document.querySelector('#time');
-  var timer = duration, minutes, seconds;
+    var timer = duration, minutes, seconds;
 
-  setInterval(function () {
-      minutes = parseInt(timer / 60, 10);
-      seconds = parseInt(timer % 60, 10);
-
-      minutes = minutes < 10 ? "0" + minutes : minutes;
-
-     seconds = seconds < 10 ? "0" + seconds : seconds;
-
-      display.textContent = minutes + ":" + seconds;
-
-      // if (--timer < 0) {
-      //     timer = duration;
-      // }
-
-      if (--timer < 0) {
+    setInterval(function () {
+       minutes = parseInt(timer / 60, 10);
+       seconds = parseInt(timer % 60, 10);
+       minutes = minutes < 10 ? "0" + minutes : minutes;
+       seconds = seconds < 10 ? "0" + seconds : seconds;
+       display.textContent = minutes + ":" + seconds;
+      
+       if (--timer < 0) {
           if(timer<0)
-          {
-            // document.getElementById("coundowntime").innerHTML = "Please enter minutes";
-
-
+          {      
               var audio = new Audio('sounds/old-fashioned-door-bell-daniel_simon.mp3');
               audio.play();
-
-
           }
-      }
+       }
 
-  }, 1000);
-
-
+   }, 1000);
 });
 
 var checked = 1;
 document.getElementById('mytime').addEventListener("change", function(){
-  
   if(checked == 1){
         document.getElementById("canvas").removeAttribute("hidden");
         checked = 0;
@@ -152,40 +137,27 @@ document.getElementById('mytime').addEventListener("change", function(){
 });
 
 document.getElementById('btn_default').addEventListener("click", function(){
-
-
   var mycolor = "black";
   document.getElementById("tslNotes").setAttribute("style", "color:black");
   document.getElementById("tslNotes2").setAttribute("style", "color:black");
-
   localStorage.setItem("currentColor", mycolor);
-
- set_font_color();
-
+  set_font_color();
 });
 
 document.getElementById('btn_primary').addEventListener("click", function(){
-
   var mycolor = "blue";
-
   document.getElementById("tslNotes").setAttribute("style", "color:blue");
   document.getElementById("tslNotes2").setAttribute("style", "color:blue");
-
   localStorage.setItem("currentColor", mycolor);
-
-    set_font_color();
+  set_font_color();
 });
 
 document.getElementById('btn_success').addEventListener("click", function(){
-
-var mycolor = "green";
-
+  var mycolor = "green";
   document.getElementById("tslNotes").setAttribute("style", "color:green");
   document.getElementById("tslNotes2").setAttribute("style", "color:green");
-
   localStorage.setItem("currentColor", mycolor);
-
-   set_font_color();
+  set_font_color();
 });
 
 
