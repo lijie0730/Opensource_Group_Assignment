@@ -112,3 +112,29 @@ document.getElementById('start_countdown').addEventListener("click", function(){
       seconds = parseInt(timer % 60, 10);
 
       minutes = minutes < 10 ? "0" + minutes : minutes;
+
+     seconds = seconds < 10 ? "0" + seconds : seconds;
+
+      display.textContent = minutes + ":" + seconds;
+
+      // if (--timer < 0) {
+      //     timer = duration;
+      // }
+
+      if (--timer < 0) {
+          if(timer<0)
+          {
+            // document.getElementById("coundowntime").innerHTML = "Please enter minutes";
+
+
+              var audio = new Audio('sounds/old-fashioned-door-bell-daniel_simon.mp3');
+              audio.play();
+
+
+          }
+      }
+
+  }, 1000);
+
+
+});
