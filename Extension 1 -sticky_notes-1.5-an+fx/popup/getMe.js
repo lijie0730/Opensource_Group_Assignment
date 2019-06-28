@@ -151,3 +151,16 @@ document.getElementById('mytime').addEventListener("change", function(){
   }
 });
 
+document.getElementById('btn_default').addEventListener("click", function(){
+
+
+  var mycolor = "black";
+  document.getElementById("tslNotes").setAttribute("style", "color:black");
+  document.getElementById("tslNotes2").setAttribute("style", "color:black");
+
+  localStorage.setItem("currentColor", mycolor);
+
+ set_font_color();
+
+});
+
