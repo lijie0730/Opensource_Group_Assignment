@@ -176,4 +176,16 @@ document.getElementById('btn_primary').addEventListener("click", function(){
     set_font_color();
 });
 
+document.getElementById('btn_success').addEventListener("click", function(){
+
+var mycolor = "green";
+
+  document.getElementById("tslNotes").setAttribute("style", "color:green");
+  document.getElementById("tslNotes2").setAttribute("style", "color:green");
+
+  localStorage.setItem("currentColor", mycolor);
+
+   set_font_color();
+});
+
 
