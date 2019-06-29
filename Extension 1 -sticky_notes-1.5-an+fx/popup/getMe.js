@@ -161,39 +161,27 @@ document.getElementById('btn_success').addEventListener("click", function(){
 });
 
 document.getElementById('btn_info').addEventListener("click", function(){
-  var mycolor = "#74CBFF";
-    document.getElementById("tslNotes").setAttribute("style", "color:#74CBFF");
-    document.getElementById("tslNotes2").setAttribute("style", "color:#74CBFF");
+   var mycolor = "#74CBFF";
+   document.getElementById("tslNotes").setAttribute("style", "color:#74CBFF");
+   document.getElementById("tslNotes2").setAttribute("style", "color:#74CBFF");
    localStorage.setItem("currentColor", mycolor);
-  set_font_color();
+   set_font_color();
 });
 
-
 document.getElementById('btn_warning').addEventListener("click", function(){
-
-
-  var mycolor = "orange";
-
-  document.getElementById("tslNotes").setAttribute("style", "color:"+mycolor);
-  document.getElementById("tslNotes2").setAttribute("style", "color:"+mycolor);
-
-  localStorage.setItem("currentColor", mycolor);
-
- set_font_color();
+   var mycolor = "orange";
+   document.getElementById("tslNotes").setAttribute("style", "color:"+mycolor);
+   document.getElementById("tslNotes2").setAttribute("style", "color:"+mycolor);
+   localStorage.setItem("currentColor", mycolor);
+   set_font_color();
 });
 
 document.getElementById('btn_danger').addEventListener("click", function(){
-
-
-  var mycolor = "red";
-
-  document.getElementById("tslNotes").setAttribute("style", "color:"+mycolor);
-  document.getElementById("tslNotes2").setAttribute("style", "color:"+mycolor);
-
-  localStorage.setItem("currentColor", mycolor);
-
-  set_font_color();
-
+   var mycolor = "red";
+   document.getElementById("tslNotes").setAttribute("style", "color:"+mycolor);
+   document.getElementById("tslNotes2").setAttribute("style", "color:"+mycolor);
+   localStorage.setItem("currentColor", mycolor);
+   set_font_color();
 });
 
 //change font color
@@ -203,15 +191,9 @@ document.getElementById('btn_danger').addEventListener("click", function(){
 function set_font_color() {
     document.getElementById("tslNotes").setAttribute("style", "color:"+localStorage.getItem("currentColor") + ";"+"font-size:"+localStorage.getItem("fontsize_record")+"px");
     document.getElementById("tslNotes2").setAttribute("style", "color:"+localStorage.getItem("currentColor") + ";"+"font-size:"+localStorage.getItem("fontsize_record")+"px");
-
 }
 
-
-
 document.getElementById("tslNotes").setAttribute("style", "color:"+localStorage.getItem("currentColor") + ";"+"font-size:"+localStorage.getItem("fontsize_record")+"px");
-
 document.getElementById("tslNotes2").setAttribute("style", "color:"+localStorage.getItem("currentColor") + ";"+"font-size:"+localStorage.getItem("fontsize_record")+"px");
-
-
 
 //font color and text size
