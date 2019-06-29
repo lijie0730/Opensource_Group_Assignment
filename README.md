@@ -7,14 +7,25 @@ Member : Ang li jie,Wong Yee Khang,Bernard Boo
 
 Bernard Boo Boon Hui
 
-Done:
+Done: #20/06/2019
       
-      Adding note feature
-      Adding change note background color feature
+      1. Adding clock feature
+      2. Adding reminder note feature
       
-Left:
+Done: #22/06/2019
+
+      1. Adding text area back ground color
+      2. Fix text area color bugs
       
-      Time feature
+Done: #25/06/2019
+
+      1. Adding countdown time feature
+      2. Adding sound feature
       
+Done: #29/06/2019
+
+      1. Fix sound error
+      2. Final testing on extension
+       
 ___________________________________________________________________________________________
     
