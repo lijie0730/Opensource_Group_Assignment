@@ -195,3 +195,23 @@ document.getElementById('btn_danger').addEventListener("click", function(){
   set_font_color();
 
 });
+
+//change font color
+
+//font color and text size
+
+function set_font_color() {
+    document.getElementById("tslNotes").setAttribute("style", "color:"+localStorage.getItem("currentColor") + ";"+"font-size:"+localStorage.getItem("fontsize_record")+"px");
+    document.getElementById("tslNotes2").setAttribute("style", "color:"+localStorage.getItem("currentColor") + ";"+"font-size:"+localStorage.getItem("fontsize_record")+"px");
+
+}
+
+
+
+document.getElementById("tslNotes").setAttribute("style", "color:"+localStorage.getItem("currentColor") + ";"+"font-size:"+localStorage.getItem("fontsize_record")+"px");
+
+document.getElementById("tslNotes2").setAttribute("style", "color:"+localStorage.getItem("currentColor") + ";"+"font-size:"+localStorage.getItem("fontsize_record")+"px");
+
+
+
+//font color and text size
