@@ -165,3 +165,6 @@ document.getElementById('btn_info').addEventListener("click", function(){
     document.getElementById("tslNotes").setAttribute("style", "color:#74CBFF");
     document.getElementById("tslNotes2").setAttribute("style", "color:#74CBFF");
    localStorage.setItem("currentColor", mycolor);
+  set_font_color();
+});
+
