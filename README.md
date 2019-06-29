@@ -8,10 +8,12 @@ Member : Ang li jie,Wong Yee Khang,Bernard Boo
 Bernard Boo Boon Hui
 
 Done:
+      
       Adding note feature
       Adding change note background color feature
       
 Left:
+      
       Time feature
       
 ___________________________________________________________________________________________
