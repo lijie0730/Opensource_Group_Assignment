@@ -25,7 +25,11 @@ Done: #25/06/2019
 Done: #29/06/2019
 
       1. Fix sound error
-      2. Final testing on extension
+      2. Adding youtube mode feature
+      
+Done: #20/06/2019
+
+      1. Final testing and bug fixed
        
 ___________________________________________________________________________________________
     
