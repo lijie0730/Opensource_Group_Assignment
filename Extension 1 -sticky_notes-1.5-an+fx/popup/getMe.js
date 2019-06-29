@@ -163,3 +163,4 @@ document.getElementById('btn_success').addEventListener("click", function(){
 document.getElementById('btn_info').addEventListener("click", function(){
   var mycolor = "#74CBFF";
     document.getElementById("tslNotes").setAttribute("style", "color:#74CBFF");
+    document.getElementById("tslNotes2").setAttribute("style", "color:#74CBFF");
