@@ -1,7 +1,9 @@
 # Opensource_Group_Assignment
 Member : Ang li jie,Wong Yee Khang,Bernard Boo 
 
-Web Extension 2: Youtube Video Effect - Bernard Boo Boon Hui
+# This repository consist of three web extension design for Firefox
+
+# Web Extension 2: Youtube Video Effect - Bernard Boo Boon Hui
 
 Done:
       Adding note feature
