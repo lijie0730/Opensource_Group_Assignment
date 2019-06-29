@@ -182,3 +182,16 @@ document.getElementById('btn_warning').addEventListener("click", function(){
  set_font_color();
 });
 
+document.getElementById('btn_danger').addEventListener("click", function(){
+
+
+  var mycolor = "red";
+
+  document.getElementById("tslNotes").setAttribute("style", "color:"+mycolor);
+  document.getElementById("tslNotes2").setAttribute("style", "color:"+mycolor);
+
+  localStorage.setItem("currentColor", mycolor);
+
+  set_font_color();
+
+});
