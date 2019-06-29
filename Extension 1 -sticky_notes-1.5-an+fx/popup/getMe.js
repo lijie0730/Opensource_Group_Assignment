@@ -160,4 +160,5 @@ document.getElementById('btn_success').addEventListener("click", function(){
   set_font_color();
 });
 
+document.getElementById('btn_info').addEventListener("click", function(){
 
