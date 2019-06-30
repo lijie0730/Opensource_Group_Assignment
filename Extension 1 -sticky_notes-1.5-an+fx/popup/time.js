@@ -22,3 +22,11 @@ function drawFace(ctx, radius) {
   grad.addColorStop(0, '#333');
   grad.addColorStop(0.5, 'white');
   grad.addColorStop(1, '#333');
+  ctx.strokeStyle = grad;
+  ctx.lineWidth = radius*0.1;
+  ctx.stroke();
+  ctx.beginPath();
+  ctx.arc(0, 0, radius*0.1, 0, 2*Math.PI);
+  ctx.fillStyle = '#333';
+  ctx.fill();
+}
