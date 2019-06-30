@@ -6,3 +6,9 @@ ctx.translate(radius, radius);
 radius = radius * 0.90
 setInterval(drawClock, 1000);
 
+function drawClock() {
+  drawFace(ctx, radius);
+  drawNumbers(ctx, radius);
+  drawTime(ctx, radius);
+}
+
