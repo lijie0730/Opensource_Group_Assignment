@@ -48,3 +48,9 @@ function drawNumbers(ctx, radius) {
     ctx.rotate(-ang);
   }
 }
+
+function drawTime(ctx, radius){
+    var now = new Date();
+    var hour = now.getHours();
+    var minute = now.getMinutes();
+    var second = now.getSeconds();
