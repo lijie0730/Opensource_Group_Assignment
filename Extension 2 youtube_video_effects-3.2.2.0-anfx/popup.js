@@ -1,3 +1,10 @@
+const notePad_field = document.getElementById('mynote');
+
+const gettingItem = browser.storage.local.get('mynote_storage');
+
+
+
+
 var radio = document.querySelectorAll("input[type=radio]");
 var val = 0;
 var state = false;
