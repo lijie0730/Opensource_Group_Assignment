@@ -2,6 +2,16 @@ const notePad_field = document.getElementById('mynote');
 
 const gettingItem = browser.storage.local.get('mynote_storage');
 
+gettingItem.then((res) => {
+try{
+  if(res.mynote_storage){
+    notePad_field.value = res.mynote_storage;
+  }
+}catch(e){}
+});
+notePad_field.addEventListener('keyup',()=>{
+    browser.storage.local.set({ mynote_storage: notePad_field.value });
+}, false);
 
 
 
