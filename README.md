@@ -27,9 +27,10 @@ Done: #29/06/2019
       1. Fix sound error
       2. Adding youtube mode feature
       
-Done: #20/06/2019
+Done: #30/06/2019
 
-      1. Final testing and bug fixed
+      1. Editing countdown time feature
+      2. Final testing and bug fixed
        
 ___________________________________________________________________________________________
     
