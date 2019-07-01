@@ -121,3 +121,27 @@ function showSearch(event) {
 
 var toggleSearch = document.getElementById('searchToggle');
 toggleSearch.onclick = showSearch;
+
+var toggleSearch = document.getElementById('calculator-button');
+toggleSearch.onclick = function () {
+	  
+	  var isHidden = document.getElementById("form_calculator").style.display;
+	  
+	  if(isHidden=="none")
+	     document.getElementById("form_calculator").style.display = "inline";
+  
+	  else
+		 document.getElementById("form_calculator").style.display = "none";
+}
+
+var toggleSearch = document.getElementById('weather-button');
+toggleSearch.onclick = function () {
+	  
+	  var isHidden = document.getElementById("form_weather").style.display;
+	  
+	  if(isHidden=="none")
+	     document.getElementById("form_weather").style.display = "inline";
+  
+	  else
+		 document.getElementById("form_weather").style.display = "none";
+}
