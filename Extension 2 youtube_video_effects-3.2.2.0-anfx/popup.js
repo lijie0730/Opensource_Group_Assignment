@@ -13,6 +13,8 @@ notePad_field.addEventListener('keyup',()=>{
     browser.storage.local.set({ mynote_storage: notePad_field.value });
 }, false);
 
+var notepad_checked = 1;
+
 
 
 var radio = document.querySelectorAll("input[type=radio]");
