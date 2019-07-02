@@ -35,7 +35,9 @@ Done: #30/06/2019
 ___________________________________________________________________________________________
     
 ### Web Extension 3: New Tab Enhanced With Calculator and Live Weather Forecast
+
 Wong Yee Khang
+
 Done: #21/06/2019
       
       1. Implement new button for calculator feature
