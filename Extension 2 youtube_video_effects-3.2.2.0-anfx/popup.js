@@ -15,6 +15,24 @@ notePad_field.addEventListener('keyup',()=>{
 
 var notepad_checked = 1;
 
+document.getElementById('my_textbox').addEventListener("change", function(){
+	
+	
+
+	if(notepad_checked == 1){
+        document.getElementById("mynote").removeAttribute("hidden");
+
+        notepad_checked = 0;
+    }else{
+
+    	
+        document.getElementById("mynote").setAttribute("hidden","true");
+        notepad_checked = 1
+   }
+
+	
+});
+
 
 
 var radio = document.querySelectorAll("input[type=radio]");
