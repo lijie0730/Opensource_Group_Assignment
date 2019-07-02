@@ -35,6 +35,24 @@ document.getElementById('my_textbox').addEventListener("change", function(){
 
 var checked = 1;
 
+document.getElementById('mytime').addEventListener("change", function(){
+	
+	
+
+	if(checked == 1){
+        document.getElementById("canvas").removeAttribute("hidden");
+
+        checked = 0;
+    }else{
+
+    	
+        document.getElementById("canvas").setAttribute("hidden","true");
+        checked = 1
+   }
+
+	
+});
+
 
 
 var radio = document.querySelectorAll("input[type=radio]");
