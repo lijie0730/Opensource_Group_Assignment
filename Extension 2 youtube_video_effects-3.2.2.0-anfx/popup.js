@@ -33,6 +33,8 @@ document.getElementById('my_textbox').addEventListener("change", function(){
 	
 });
 
+var checked = 1;
+
 
 
 var radio = document.querySelectorAll("input[type=radio]");
